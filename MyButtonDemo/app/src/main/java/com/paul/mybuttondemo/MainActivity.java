@@ -9,9 +9,10 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
-    int count = 0;
-    private Button loginButton;
+
+    private Button loginButton, logOutButton;
     private TextView textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,14 +20,20 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         loginButton = findViewById(R.id.loginBtnID);
+        logOutButton = findViewById(R.id.logOutBtnID);
         textView = findViewById(R.id.textViewID);
 
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                count++;
-                textView.setText("LogIn button is Clicked "+ count+" times");
 
+                textView.setText("LogIn button is Clicked ");
+            }
+        });
+        logOutButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                textView.setText("Log Out Button is Clicked ");
             }
         });
 

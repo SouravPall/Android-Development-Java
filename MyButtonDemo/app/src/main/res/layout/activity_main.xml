@@ -24,16 +24,34 @@
 <!--        android:scaleType="fitXY"-->
 <!--        android:src="@drawable/enter" />-->
 
-    <Button
-        android:id="@+id/loginBtnID"
-        android:textAllCaps="false"
-        android:layout_margin="10dp"
+    <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_Name"
-        android:drawableRight="@drawable/enter"
-        android:textSize="20sp"
-        />
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/loginBtnID"
+            android:textAllCaps="false"
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logInBtn_Name"
+            android:drawableRight="@drawable/enter"
+            android:textSize="20sp"
+            />
+
+        <Button
+            android:id="@+id/logOutBtnID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/logOutBtn_Name"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:layout_margin="10dp"
+            android:drawableRight="@drawable/logout"
+
+            />
+
+
+    </LinearLayout>
 
     <TextView
         android:id="@+id/textViewID"
