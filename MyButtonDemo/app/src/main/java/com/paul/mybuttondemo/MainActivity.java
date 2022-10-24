@@ -7,6 +7,7 @@ import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,9 +33,15 @@ public class MainActivity extends AppCompatActivity {
     public  void showMessage(View v) {
 
         if (v.getId() == R.id.loginBtnID) {
-            textView.setText("Login button is clicked");
+            //textView.setText("Login button is clicked");  //textview
+            
+            
+            //Toast
+            Toast.makeText(MainActivity.this, "Login button is clicked", Toast.LENGTH_SHORT).show();
         }else{
-            textView.setText("Log out button is clicked");
+            //textView.setText("Log out button is clicked"); //textview
+
+            Toast.makeText(this, "Logout button is clicked", Toast.LENGTH_SHORT).show();
         }
     }
 
