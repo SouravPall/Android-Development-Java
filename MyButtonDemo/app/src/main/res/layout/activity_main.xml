@@ -34,6 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/logInBtn_Name"
+            android:onClick="showMessage"
             android:drawableRight="@drawable/enter"
             android:textSize="20sp"
             />
@@ -47,6 +48,7 @@
             android:textSize="20sp"
             android:layout_margin="10dp"
             android:drawableRight="@drawable/logout"
+            android:onClick="showMessage"
 
             />
 

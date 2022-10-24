@@ -24,27 +24,22 @@ public class MainActivity extends AppCompatActivity {
         logOutButton = findViewById(R.id.logOutBtnID);
         textView = findViewById(R.id.textViewID);
 
-        Handler handler = new Handler();
 
-        loginButton.setOnClickListener(handler);
-        logOutButton.setOnClickListener(handler);
+
 
 
     }
+    public  void showMessage(View v) {
 
-    class Handler implements View.OnClickListener{
-
-        @Override
-        public void onClick(View v) {
-
-            if (v.getId()==R.id.loginBtnID){
-                textView.setText("Log In button is clicked ");
-            } else if (v.getId()==R.id.logOutBtnID){
-                textView.setText("Log Out button is clicked ");
-            }
-
+        if (v.getId() == R.id.loginBtnID) {
+            textView.setText("Login button is clicked");
+        }else{
+            textView.setText("Log out button is clicked");
         }
     }
+
+
+
 
 
 }
