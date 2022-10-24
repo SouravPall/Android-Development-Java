@@ -3,11 +3,12 @@ package com.paul.mybuttondemo;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends AppCompatActivity {
 
 
     private Button loginButton, logOutButton;
@@ -23,19 +24,27 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         logOutButton = findViewById(R.id.logOutBtnID);
         textView = findViewById(R.id.textViewID);
 
+        Handler handler = new Handler();
 
-        loginButton.setOnClickListener(this);
-        logOutButton.setOnClickListener(this);
+        loginButton.setOnClickListener(handler);
+        logOutButton.setOnClickListener(handler);
 
 
     }
 
-    @Override
-    public void onClick(View v) {
+    class Handler implements View.OnClickListener{
 
-        if (v.getId()==R.id.loginBtnID){
-            textView.setText("LogIn button is clicked ");
-        }else
-        textView.setText("LogOut button is clicked ");
+        @Override
+        public void onClick(View v) {
+
+            if (v.getId()==R.id.loginBtnID){
+                textView.setText("Log In button is clicked ");
+            } else if (v.getId()==R.id.logOutBtnID){
+                textView.setText("Log Out button is clicked ");
+            }
+
+        }
     }
+
+
 }
