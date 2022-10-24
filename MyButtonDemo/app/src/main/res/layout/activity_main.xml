@@ -5,21 +5,43 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
+<!--    <Button-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/btn_Name"-->
+<!--        android:textSize="22sp"-->
+<!--        android:textStyle="bold"-->
+<!--        />-->
+
+<!--    <ImageButton-->
+<!--        android:layout_margin="10dp"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:scaleType="fitXY"-->
+<!--        android:src="@drawable/enter" />-->
+
     <Button
+        android:id="@+id/loginBtnID"
+        android:textAllCaps="false"
+        android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_Name"
-        android:textSize="22sp"
-        android:textStyle="bold"
+        android:drawableRight="@drawable/enter"
+        android:textSize="20sp"
         />
 
-    <ImageButton
+    <TextView
+        android:id="@+id/textViewID"
+        android:layout_margin="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:scaleType="fitXY"
-        android:src="@drawable/enter" />
+        android:textSize="20sp"
+        />
 
 
 
