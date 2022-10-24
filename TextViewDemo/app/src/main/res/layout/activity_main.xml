@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#61009688"
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
+        android:paddingTop="20dp"
         android:id="@+id/nameTextViewID"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
