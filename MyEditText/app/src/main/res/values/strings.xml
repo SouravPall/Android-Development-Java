@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyEditText</string>
+    <string name="editText_text1">Enter Number 1</string>
+    <string name="editText_text2">Enter Number 2</string>
+    <string name="adding_text"> + </string>
+    <string name="subtraction_text"> - </string>
+    <string name="product_text"> * </string>
+    <string name="division_sign"> / </string>
+
+</resources>

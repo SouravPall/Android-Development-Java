@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         }else{
             //textView.setText("Log out button is clicked"); //textview
 
+            //Toast
             Toast.makeText(this, "Logout button is clicked", Toast.LENGTH_SHORT).show();
         }
     }
