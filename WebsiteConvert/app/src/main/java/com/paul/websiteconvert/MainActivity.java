@@ -23,6 +23,6 @@ public class MainActivity extends AppCompatActivity {
 
         webView.setWebViewClient(new WebViewClient());
 
-        webView.loadUrl("https://www.google.com/");
+        webView.loadUrl("https://cse.uap-bd.edu/");
     }
 }
