@@ -41,11 +41,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String guessString = editText.getText().toString();
 
         if (guessString.isEmpty()){
-            
+
+            errorMessage();
+
 
         }else{
             int guess = Integer.parseInt(guessString);
 
+            if(guess>5){
+                errorMessage();
+            }
 
             //Generation random number
             Random random = new Random();
@@ -58,7 +63,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
         }
 
-
-
+    }
+    void errorMessage(){
+        editText.setError("Please enter an valid input");
+        editText.requestFocus();
+        return;
     }
 }
