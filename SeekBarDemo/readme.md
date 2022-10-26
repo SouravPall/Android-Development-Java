@@ -1,5 +1,5 @@
 
-##OnSeekChangeListener
+## OnSeekChangeListener
 | Syntax                  | Description                                              |
 |-------------------------|----------------------------------------------------------|
 | 1. onProgressChanged    | notification that the progress level has changed.        |
