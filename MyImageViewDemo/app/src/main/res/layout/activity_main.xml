@@ -11,6 +11,7 @@
     tools:context=".MainActivity">
 
     <ImageView
+        android:id="@+id/imageViewID1"
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:src="@drawable/dog2"
@@ -19,6 +20,7 @@
         />
 
     <ImageView
+        android:id="@+id/imageViewID2"
         android:layout_width="300dp"
         android:layout_height="250dp"
         android:src="@drawable/dog3"
