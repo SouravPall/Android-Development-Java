@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Intent Demo 2</string>
+    <string name="button_text">Go</string>
+</resources>
