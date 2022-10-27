@@ -2,36 +2,49 @@ package com.paul.timepicker;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.TimePickerDialog;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.TimePicker;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private TimePicker timePicker;
+
     private TextView textView;
     private Button button;
+    private TimePickerDialog timePickerDialog;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        timePicker = findViewById(R.id.timepicker_id);
-        timePicker.setIs24HourView(true);
+
         textView = findViewById(R.id.textView_id);
         button = findViewById(R.id.Btn_id);
 
-        button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+        button.setOnClickListener(this);
 
-                String time = timePicker.getHour() + ":" + timePicker.getMinute();
 
-                textView.setText(time);
-            }
-        });
+    }
+
+    @Override
+    public void onClick(View v) {
+
+        TimePicker timePicker = new TimePicker(this);
+        int currentHour = timePicker.getHour();
+        int currentMinute = timePicker.getMinute();
+
+        timePickerDialog = new TimePickerDialog(MainActivity.this, new TimePickerDialog.OnTimeSetListener() {
+                    @Override
+                    public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
+
+                        textView.setText(hourOfDay + ":"+minute);
+                    }
+                }, currentHour,currentMinute,true);
+
+        timePickerDialog.show();
     }
 }
