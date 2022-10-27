@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Layout Weight Demo</string>
+    <string name="button_name1"> Button 1</string>
+    <string name="button_name2"> Button 2</string>
+    <string name="button_name3"> Button 3</string>
+    <string name="button_name4"> Button 4</string>
+    <string name="button_name5"> Button 5</string>
+    <string name="button_name6"> Button 6</string>
+</resources>
