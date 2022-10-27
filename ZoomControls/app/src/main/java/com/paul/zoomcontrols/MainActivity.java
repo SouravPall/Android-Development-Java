@@ -39,9 +39,13 @@ public class MainActivity extends AppCompatActivity {
 
                 float x = imageView.getScaleX();
                 float y = imageView.getScaleY();
-                
-                imageView.setScaleX(x-1);
-                imageView.setScaleY(y-1);
+
+                if (x>1 && y>1){
+                    imageView.setScaleX(x-1);
+                    imageView.setScaleY(y-1);
+                }
+
+
             }
         });
 
