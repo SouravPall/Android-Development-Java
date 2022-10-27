@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Time Picker</string>
+    <string name="btn_text"> Show Time </string>
 </resources>
