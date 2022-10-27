@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Country Profile</string>
+    <string name="bd_button"> Bangladesh </string>
+    <string name="india_button"> India </string>
+    <string name="uk_button"> U.K </string>
+</resources>
