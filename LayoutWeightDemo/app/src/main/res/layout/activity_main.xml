@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:weightSum="6"
+    android:weightSum="5"
+    android:background="@color/purple_200"
     tools:context=".MainActivity">
 
     <Button
@@ -26,7 +27,6 @@
 
         android:layout_weight="1"
         />
-
     <Button
         android:id="@+id/button3_id"
         style="@style/Widget.AppCompat.Button.Colored"
@@ -36,30 +36,25 @@
         android:layout_weight="1"
         />
 
-    <Button
-        android:id="@+id/button4_id"
+    <LinearLayout
+        android:layout_weight="1"
+        android:background="@color/black"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/button_name4"
-        style="@style/Widget.AppCompat.Button.Colored"
+        >
+
+    </LinearLayout>
+
+    <LinearLayout
         android:layout_weight="1"
-        />
-    <Button
-        android:id="@+id/button5_id"
+        android:background="@color/teal_200"
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:text="@string/button_name5"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_weight="1"
-        />
-    <Button
-        android:id="@+id/button6_id"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:text="@string/button_name6"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_weight="1"
-        />
+        >
+
+    </LinearLayout>
+
+
 
 
 </LinearLayout>
