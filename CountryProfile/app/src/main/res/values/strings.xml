@@ -3,4 +3,33 @@
     <string name="bd_button"> Bangladesh </string>
     <string name="india_button"> India </string>
     <string name="uk_button"> U.K </string>
+    <string name="bd_text"> Bangladesh \n
+Country in South Asia
+Bangladesh, to the east of India on the Bay of Bengal, is a South Asian country marked by lush greenery and many waterways. Its Padma (Ganges), Meghna and Jamuna rivers create fertile plains, and travel by boat is common. On the southern coast, the Sundarbans, an enormous mangrove forest shared with Eastern India, is home to the royal Bengal tiger.
+Capital: Dhaka
+Dialing code: +880
+Area: 148,460 km²
+President: Mohammad Abdul Hamid
+Population: 166.3 million (2021) World Bank
+Gross domestic product: 416.3 billion USD (2021) World Bank
+Currency: Bangladeshi taka</string>
+    <string name="uk_text">United Kingdom
+Country in Europe
+The United Kingdom, made up of England, Scotland, Wales and Northern Ireland, is an island nation in northwestern Europe. England – birthplace of Shakespeare and The Beatles – is home to the capital, London, a globally influential centre of finance and culture. England is also site of Neolithic Stonehenge, Bath’s Roman spa and centuries-old universities at Oxford and Cambridge. ― Google
+Prime minister: Rishi Sunak Trending
+Capital: London
+Dialing code: +44
+Area: 243,610 km²
+King: Charles III
+Population: 67.33 million (2021)</string>
+    <string name="india_text">India
+Country in South Asia
+India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area, the second-most populous country, and the most populous democracy in the world. Wikipedia
+President: Droupadi Murmu Trending
+Capital: New Delhi
+Dialing code: +91
+Area: 3.287 million km²
+Population: 1.393 billion (2021) World Bank
+Gross domestic product: 3.173 trillion USD (2021) World Bank
+Prime minister: Narendra Modi</string>
 </resources>
