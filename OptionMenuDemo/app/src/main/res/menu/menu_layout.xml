@@ -6,12 +6,14 @@
     <item
         android:title="Setting"
         android:id="@+id/setting_id"
-        app:showAsAction="never"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_24"
         />
     <item
         android:title="Share"
         android:id="@+id/share_id"
-        app:showAsAction="never"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_share_24"
         />
     <item
         android:title="Feedback"
