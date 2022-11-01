@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Lean Ticket</string>
+    <string name="parkTicket_btn_name">Park Ticket</string>
+</resources>

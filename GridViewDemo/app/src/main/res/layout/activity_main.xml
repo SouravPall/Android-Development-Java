@@ -26,6 +26,7 @@
         android:layout_marginBottom="10dp"
         >
         <androidx.cardview.widget.CardView
+            android:id="@+id/teletalk_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
@@ -52,6 +53,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/gp_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
@@ -78,6 +80,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/skitto_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
@@ -104,6 +107,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/airtel_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
@@ -130,6 +134,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/banglalink_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
@@ -156,6 +161,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/robi_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_columnWeight = "1"
