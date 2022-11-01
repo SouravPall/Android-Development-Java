@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Lean Ticket</string>
     <string name="parkTicket_btn_name">Park Ticket</string>
+    <string name="today_summary">Today\'s Summary</string>
+    <string name="sync_1">Sync Data</string>
+    <string name="sync_2">Sync Data</string>
 </resources>
