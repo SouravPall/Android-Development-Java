@@ -27,9 +27,8 @@
                 android:layout_marginTop="10dp"
                 android:gravity="center_horizontal"
                 android:text="Bangladesh"
-                android:textStyle="bold"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                />
+                android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
