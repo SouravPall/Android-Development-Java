@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Actionbar Search view</string>
+    <string-array name="question_name">
+
+        <item>1. How to Create Android Project?</item>
+        <item>2. Create a LinearLayout ImageView.</item>
+        <item>3. Make a Search View.</item>
+        <item>4. Creating a ListView Filter</item>
+        <item>5. Creating a ListView Filter</item>
+        <item>6. Creating a ListView Filter</item>
+        <item>7. Creating a ListView Filter</item>
+        <item>8. Creating a ListView Filter</item>
+        <item>9. Creating a ListView Filter</item>
+        <item>10. Creating a ListView Filter</item>
+        <item>11. Creating a ListView Filter</item>
+        <item>12. Creating a ListView Filter</item>
+        <item>13. Creating a ListView Filter</item>
+        <item>14. Creating a ListView Filter</item>
+        <item>15. Creating a ListView Filter</item>
+        <item>16. Creating a ListView Filter</item>
+        <item>17. Creating a ListView Filter</item>
+
+
+    </string-array>
+</resources>
