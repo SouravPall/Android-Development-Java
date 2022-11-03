@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".LinearActivity">
-
+    tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +19,7 @@
             android:layout_weight="1"
             android:background="#A13870"
             android:gravity="center"
-            android:text="@string/one1"
+            android:text="One"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -31,7 +30,7 @@
             android:layout_weight="1"
             android:background="#44A84B"
             android:gravity="center"
-            android:text="@string/two2"
+            android:text="Two"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -42,7 +41,7 @@
             android:layout_weight="1"
             android:background="#624DBF"
             android:gravity="center"
-            android:text="@string/three3"
+            android:text="Three"
             android:textColor="@color/white"
             android:textSize="30sp" />
 
@@ -62,7 +61,7 @@
             android:layout_weight="1"
             android:background="#0350C8"
             android:gravity="center"
-            android:text="@string/four"
+            android:text="Four"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
@@ -74,7 +73,7 @@
             android:layout_weight="1"
             android:background="#64A0FD"
             android:gravity="center"
-            android:text="@string/five"
+            android:text="Five"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold"
@@ -87,10 +86,11 @@
             android:layout_weight="1"
             android:background="#03265E"
             android:gravity="center"
-            android:text="@string/six"
+            android:text="Six"
             android:textColor="#FFFFFF"
             android:textSize="24sp"
             android:textStyle="bold" />
 
     </LinearLayout>
+
 </LinearLayout>
