@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200_1">#FF03DAC5</color>
+    <color name="teal_700_2">#FF018786</color>
+    <color name="teal_200">#000000</color>
+    <color name="teal_700">#000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="backgroundColor">#F5F5F5</color>
+    <color name="textColor">#B0B3BA</color>
+    <color name="textColor2">#898A8F</color>
+    <color name="unselectColor">#D6D6D6</color>
+    <color name="selectedBg">#804E949B</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="textColor3">#7F7F7F</color>
+
+
+
+    <color name="colorPrimaryOrange">#E98B00</color>
+    <color name="colorPrimaryOrangeLight">#99E98B00</color>
+
+
+
+
+
+    <color name="selected_menu_color">#FF7E1F</color>
+    <color name="colorA">#666666</color>
+    <color name="colorB">#FD8154</color>
+    <color name="colorD">#529CC5</color>
+    <color name="colorE">#97A99B</color>
+    <color name="colorF">#B69D74</color>
+    <color name="colorG">#FF6363</color>
+    <color name="colorS">#F4F7FA</color>
+    <color name="facebookBgColor">#3A559F</color>
+    <color name="googleBgColor">#4387EE</color>
+    <color name="fragmentBg">#EFF0F5</color>
+    <color name="circleBgCategories">#FF6527</color>
+    <color name="circleBgSelection">#3E98FF</color>
+    <color name="circleBgFreebies">#FAB802</color>
+    <color name="circleBgCoupon">#5BCEC7</color>
+    <color name="viewColor">#CFCDCD</color>
+    <color name="alertDialogBg">#EEECEC</color>
+    <color name="red">#FF0000</color>
+    <color name="typing">#FF36C44B</color>
+    <color name="expenseColor">#f86c6b</color>
+    <color name="colorRed">#D81B1B</color>
+    <color name="green">#008000</color>
+
+
+
+    <!--grey-->
+    <color name="md_grey_50">#FAFAFA</color>
+    <color name="md_grey_100">#F5F5F5</color>
+    <color name="md_grey_200">#EEEEEE</color>
+    <color name="md_grey_300">#E0E0E0</color>
+    <color name="md_grey_400">#BDBDBD</color>
+    <color name="md_grey_500">#9E9E9E</color>
+    <color name="md_grey_600">#757575</color>
+    <color name="md_grey_700">#616161</color>
+    <color name="md_grey_800">#424242</color>
+    <color name="md_grey_900">#212121</color>
+    <color name="orderColor">#748A9D</color>
+
+    <color name="disableBtnColor">#7A898A8F</color>
+    <color name="text_color_info_data">#898A8F</color>
+
+    <color name="lockScreenTextColor">#898A8F</color>
+    <color name="lockScreenTextColorActive">#0A0819</color>
+</resources>
